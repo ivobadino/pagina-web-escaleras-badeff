@@ -1,0 +1,238 @@
+<!DOCTYPE html><!---->
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escaleras Badeff</title>
+    <link rel="stylesheet" href="./styles/style-productos.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_contenedor__superior">
+            <div class="header__logo">
+                <img class="header__logo__imgen" src="./assets/badeff-logo.png" alt="Logo escaleras badeff">
+            </div>
+
+            <div class="header__texto">
+                <a>SOLUCIONES A LA ALTURA</a>
+            </div>
+
+            <div class="header__redes">
+                <button onclick="window.open('http://instagram.com', '_blank')">
+                  <img src="./assets/instagram-logo.png.jpg" alt="Logo Instagram" class="header__redes__link__imagen">
+                </button>
+                <button onclick="window.open('http://facebook.com', '_blank')">
+                  <img src="./assets/facebook.logo.png.jpg" alt="Logo Facebook" class="header__redes__link__imagen">
+                </button>
+              </div>
+        </div>
+
+        <div class="header__navegacion"
+        <nav class="header__navegacion__menu">
+            <a class="header__navegacion__menu__link" href="inicio.html" >INICIO</a>
+            <a class="header__navegacion__menu__link" style="background-color:#E70000; color:#FFFDEF;" href="productos.html">CATALOGO</a>
+            <a class="header__navegacion__menu__link" href="empresa.html">EMPRESA</a>
+            <a class="header__navegacion__menu__link" href="consultoria.html">CONSULTORIA</a>
+            <a class="header__navegacion__menu__link" href="posventa.html">POSVENTA</a>
+            <a class="header__navegacion__menu__link" href="contacto.html">CONTACTO</a>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div class="productos">
+            <div class="productos__filtros-material">
+              <button id="filtro-todos" class="productos__filtro-material activo">Todos</button>
+              <button id="filtro-aluminio" class="productos__filtro-material">Aluminio</button>
+              <button id="filtro-fibra" class="productos__filtro-material">Fibra de Vidrio</button>
+            </div>
+            <div class="productos__contenido">
+              <div class="productos__filtros-tipo">
+                <button id="filtro-todos-tipo" class="productos__filtro-tipo activo">Todos</button>
+                <button id="filtro-paralela" class="productos__filtro-tipo ">Paralela simple</button>
+                <button id="filtro-extensibles" class="productos__filtro-tipo">Extensibles</button>
+                <button id="filtro-tijerapeldañod" class="productos__filtro-tipo">Tijera industrial</button>
+                <button id="filtro-tijerapeldañop" class="productos__filtro-tipo">Tijera de <br>peldaño plano</button>
+                <button id="filtro-burro" class="productos__filtro-tipo">Tipo Burro</button>
+                <button id="filtro-otras" class="productos__filtro-tipo">Escaleras especiales</button>
+              </div>
+              
+              <div class="productos__grilla">
+
+                <!--paralela-->
+
+                <div class="producto" data-material="aluminio" data-tipo="paralela">
+                  <img src="./assets/imagen1.jpg" alt="Producto 1">
+                  <h3>PARALELA PELDAÑO "D" AL.</h3>
+                  <p>Aluminio - paralela simple</p>
+                  <p>Peldaño tipo "D"</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="paralela">
+                  <img src="./assets/imagen3.jpg" alt="Producto 1">
+                  <h3>PARALELA PELDAÑO "D" F.V</h3>
+                  <p>Fibra - Paralela simple - Dielectrica </p>
+                  <p>Peldaño tipo "D"</p>
+                </div>
+
+                <div class="producto" data-material="aluminio" data-tipo="paralela">
+                  <img src="./assets/imagen1.jpg" alt="Producto 1">
+                  <h3>PARALELA PELDAÑO PLANO AL.</h3>
+                  <p>Aluminio - Extensible </p>
+                  <p>Peldaño plano</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="paralela">
+                  <img src="./assets/imagen3.jpg" alt="Producto 1">
+                  <h3>PARALELA PELDAÑO "D" F.V</h3>
+                  <p>Fibra - Paralela simple - Dielectrica </p>
+                  <p>Peldaño plano</p>
+                </div>
+              
+                <!--extencibles-->
+
+                <div class="producto" data-material="aluminio" data-tipo="extensibles">
+                  <img src="./assets/imagen1.jpg" alt="Producto 1">
+                  <h3>EXTENCIBLE AL</h3>
+                  <p>Aluminio - Extensible </p>
+                  <p>Material ligero</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="extensibles">
+                  <img src="./assets/imagen3.jpg" alt="Producto 1">
+                  <h3>EXTENCIBLE F.V</h3>
+                  <p>Fibra - Extensible - Dielectrica </p>
+                </div>
+
+                <div class="producto" data-material="aluminio" data-tipo="extensibles">
+                  <img src="./assets/imagen1.jpg" alt="Producto 1">
+                  <h3>EXTENCIBLE AL</h3>
+                  <p>Aluminio - Extensible</p>
+                  <p>Material pesado</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="extensibles">
+                  <img src="./assets/imagen3.jpg" alt="Producto 1">
+                  <h3>EXTENCIBLE 3 CUERPOS F.V </h3>
+                  <p>Fibra - Extensibles - Dielectrica </p>
+                </div>
+
+                <div class="producto" data-material="aluminio" data-tipo="extensibles">
+                  <img src="./assets/imagen1.jpg" alt="Producto 1">
+                  <h3>EXTENCIBLE 3 EN 1 AL </h3>
+                  <p>Aluminio - Extensibles - multiusos </p>
+                </div>
+                
+                <!--tijeras industriales-->
+
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA INDUSTRIAL AL.</h3>
+                  <p>Aluminio - Tijera</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA INDUSRIAL F.V</h3>
+                  <p>Fibra - Tijera - Dielectrica</p>
+                </div>
+
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA CON EXTENCION AL.</h3>
+                  <p>Aluminio - Tijera</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA CON EXTENCION F.V</h3>
+                  <p>Fibra - Tijera - Dielectrica</p>
+                </div>
+          
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA CON PLATRAFORMA AL.</h3>
+                  <p>Aluminio - Tijera - Plataforma</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañod">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA CON PLATRAFORMA F.V</h3>
+                  <p>Fibra - Tijera - Dielectrica - Plataforma</p>
+                </div>
+
+                <!--tijera peldaño plano-->
+
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA P. PLANO AL.</h3>
+                  <p>Aluminio - Tijera</p>
+                  <P>Peldaño plano</P>
+                  <P>Doble acceso</P>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA P. PLANO F.V</h3>
+                  <p>Fibra - Tijera - Dielectrica</p>
+                  <P>Peldaño plano</P>
+                  <P>Doble acceso</P>
+                </div>
+
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA P. PLANO  AL.</h3>
+                  <p>Aluminio - Tijera</p>
+                  <P>Peldaño plano</P>
+                  <P>Acceso simple - bastidor</P>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA  P. PLANO F.V</h3>
+                  <p>Fibra - Tijera - Dielectrica</p>
+                  <P>Peldaño plano</P>
+                  <P>Acceso simple - bastidor</P>
+                </div>
+          
+                <div class="producto" data-material="aluminio" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>TIJERA CON PLATRAFORMA AL.</h3>
+                  <P>Peldaño plano</P>
+                  <p>Aluminio - Tijera - Plataforma</p>
+                </div>
+
+                <div class="producto" data-material="fibra" data-tipo="tijerapeldañop">
+                  <img src="./assets/imagen3.jpg" alt="Producto 2">
+                  <h3>TIJERA CON PLATRAFORMA F.V</h3>
+                  <P>Peldaño plano</P>
+                  <p>Fibra - Tijera - Dielectrica - Plataforma</p>
+                </div>
+
+                <!--tipo burro-->
+
+                <div class="producto" data-material="aluminio" data-tipo="burro">
+                  <img src="./assets/imagen1.jpg" alt="Producto 2">
+                  <h3>ESCALERA TIPO BURRO</h3>
+                  <p>Aluminio - Plataforma</p>
+                </div>
+                
+                <!--escaleras especiales-->
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__informacion">
+            <ul>
+                <li><a class="footer__informacion__elementoimagen"><img  class="footer__informacion_imagenes"  src="./assets/mail-logo-rojo.png.jpg">maildecontacto@gmail.com</a></li><!--logo email-->
+                <li><a class="footer__informacion__elementoimagen"><img  class="footer__informacion_imagenes"  src="./assets/ubicacion-logo-rojo.png.jpg">ubicacion fabrica 1234</a></li><!--logo ubicacion-->
+                <li><a class="footer__informacion__elementoimagen"><img  class="footer__informacion_imagenes"  src="./assets/logo-whatsapp-rojo.png.jpg">11 1232-3242</a></li> <!--logo whatsapp-->
+            </ul>
+        </div>
+    </footer>
+    <script src="./apps/app-productos.js"></script>
+</body>
+</html>
